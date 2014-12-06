@@ -1,0 +1,44 @@
+{
+  "version": "0.0.0",
+  "name": "mongodb-backup-cli",
+  "description": "mongodb-backup cli",
+  "keywords": [
+    "mongodb",
+    "backup",
+    "cli"
+  ],
+  "preferGlobal": true,
+  "homepage": "http://supergiovane.tk/#/mongodb-backup-cli",
+  "author": {
+    "name": "hex7c0",
+    "email": "hex7c0@gmail.com",
+    "url": "http://hex7c0.tk/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hex7c0/mongodb-backup-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hex7c0/mongodb-backup-cli/issues",
+    "email": "hex7c0@gmail.com"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "bin": {
+    "mongodb-backup": "./bin/cli.js"
+  },
+  "dependencies": {
+    "cli": "0.6.5"
+  },
+  "peerDependencies": {
+    "mongodb-backup": "0.x"
+  },
+  "engines": {
+    "node": "^0.10"
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "license": "GPLv3"
+}
