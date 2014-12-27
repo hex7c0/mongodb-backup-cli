@@ -3,7 +3,8 @@
 [![NPM version](https://badge.fury.io/js/mongodb-backup-cli.svg)](http://badge.fury.io/js/mongodb-backup-cli)
 [![Dependency Status](https://david-dm.org/hex7c0/mongodb-backup-cli/status.svg)](https://david-dm.org/hex7c0/mongodb-backup-cli)
 
-CLI for [`mongodb-backup`](https://github.com/hex7c0/mongodb-backup).
+CLI for [`mongodb-backup`](https://github.com/hex7c0/mongodb-backup)
+
 Similar to [mongodump](http://docs.mongodb.org/manual/reference/program/mongodump/)
 
 ## Installation
@@ -22,9 +23,10 @@ git clone git://github.com/hex7c0/mongodb-backup-cli.git
 
 global cli with `-g` option
 ```bash
-$ node cli.js -h
+$ mongodb-backup -h
+
 Usage:
-  cli.js [OPTIONS] [ARGS]
+  mongodb-backup [OPTIONS] [ARGS]
 
 Options: 
       --verbose FILE       Save internal reporting into a logfile
@@ -33,7 +35,8 @@ Options:
   -o, --out [STRING]       Specifies the directory where saves the output  (Default is dump/)
   -t, --tar STRING         Pack files into a .tar file
   -c, --collections STRING Specifies a collection to backup
-  -q, --query STRING       Query that optionally limits the documents included 
+  -q, --query STRING       Query that optionally limits the documents included
+  -m, --metadata           Save metadata of collections as Index, ecc
   -v, --version            Display the current version
   -h, --help               Display help and usage details
 ```
