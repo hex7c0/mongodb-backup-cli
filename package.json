@@ -32,7 +32,7 @@
     "cli": "0.6.5"
   },
   "peerDependencies": {
-    "mongodb-backup": "0.x"
+    "mongodb-backup": "1.x"
   },
   "engines": {
     "node": "^0.10"
