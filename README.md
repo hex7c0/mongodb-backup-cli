@@ -1,7 +1,7 @@
 # [mongodb-backup-cli](http://supergiovane.tk/#/mongodb-backup-cli)
 
-[![NPM version](https://badge.fury.io/js/mongodb-backup-cli.svg)](http://badge.fury.io/js/mongodb-backup-cli)
-[![Dependency Status](https://david-dm.org/hex7c0/mongodb-backup-cli/status.svg)](https://david-dm.org/hex7c0/mongodb-backup-cli)
+[![NPM version](https://img.shields.io/npm/v/mongodb-backup-cli.svg)](https://www.npmjs.com/package/mongodb-backup-cli)
+[![Dependency Status](https://img.shields.io/david/hex7c0/mongodb-backup-cli.svg)](https://david-dm.org/hex7c0/mongodb-backup-cli)
 
 CLI for [`mongodb-backup`](https://github.com/hex7c0/mongodb-backup)
 
@@ -43,6 +43,6 @@ Options:
 
 ## Examples
 
-Take a look at my [examples](https://github.com/hex7c0/mongodb-backup-cli/tree/master/examples)
+Take a look at my [examples](examples)
 
-### [License GPLv3](http://opensource.org/licenses/GPL-3.0)
+### [License GPLv3](LICENSE)
