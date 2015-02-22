@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "mongodb-backup-cli",
   "description": "mongodb-backup cli",
   "keywords": [
@@ -35,7 +35,7 @@
     "mongodb-backup": "1.x"
   },
   "engines": {
-    "node": "^0.10"
+    "node": ">=0.10"
   },
   "scripts": {
     "prepublish": "npm prune"
