@@ -29,9 +29,7 @@
     "mongodb-backup": "./bin/cli.js"
   },
   "dependencies": {
-    "cli": "0.6.5"
-  },
-  "peerDependencies": {
+    "cli": "0.6.5",
     "mongodb-backup": "1.x"
   },
   "engines": {
