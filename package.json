@@ -38,5 +38,5 @@
   "scripts": {
     "prepublish": "npm prune"
   },
-  "license": "GPLv3"
+  "license": "GPL-3.0"
 }
