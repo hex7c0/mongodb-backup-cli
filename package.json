@@ -36,7 +36,8 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "prepublish": "npm prune"
+    "prepublish": "npm prune",
+    "test": "node ./bin/cli.js -h"
   },
   "license": "GPL-3.0"
 }
