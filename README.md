@@ -1,4 +1,4 @@
-# [mongodb-backup-cli](http://supergiovane.tk/#/mongodb-backup-cli)
+# [mongodb-backup-cli](https://github.com/hex7c0/mongodb-backup-cli)
 
 [![NPM version](https://img.shields.io/npm/v/mongodb-backup-cli.svg)](https://www.npmjs.com/package/mongodb-backup-cli)
 [![Linux Status](https://img.shields.io/travis/hex7c0/mongodb-backup-cli.svg?label=linux)](https://travis-ci.org/hex7c0/mongodb-backup-cli)
