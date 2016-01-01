@@ -29,7 +29,7 @@
     "mongodb-backup": "./bin/cli.js"
   },
   "dependencies": {
-    "cli": "0.11.0",
+    "cli": "0.11.1",
     "mongodb-backup": "1.x"
   },
   "devDependencies": {
