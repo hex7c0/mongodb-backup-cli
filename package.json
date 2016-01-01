@@ -30,10 +30,10 @@
   },
   "dependencies": {
     "cli": "0.11.1",
-    "mongodb-backup": "1.x"
+    "mongodb-backup": "1.4.x"
   },
   "devDependencies": {
-    "mongodb-restore": "1.x"
+    "mongodb-restore": "~1.4"
   },
   "engines": {
     "node": ">=0.10"
