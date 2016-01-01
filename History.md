@@ -1,7 +1,14 @@
+v0.2.3 / 2016-01-01
+==================
+
+  * Test againt `node`@5
+  * Update `cli`@0.11.1
+  * Use `mongodb-backup`@1.4.x
+
 v0.2.2 / 2015-10-23
 ==================
 
-  * Test `node`@4
+  * Test againt `node`@4
   * Update `cli`@0.11.0
 
 v0.2.1 / 2015-08-26
