@@ -1,3 +1,9 @@
+v0.3.0 / 2016-01-01
+==================
+
+  * Versions 0.2.x will be release under `stable` tag
+  * Use `mongodb-backup`@1.5.x
+
 v0.2.3 / 2016-01-01
 ==================
 
