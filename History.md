@@ -1,3 +1,9 @@
+v0.3.1 / 2016-04-30
+==================
+
+  * Test against `node`@6
+  * Update `cli`@0.11.2
+
 v0.3.0 / 2016-01-01
 ==================
 
@@ -7,14 +13,14 @@ v0.3.0 / 2016-01-01
 v0.2.3 / 2016-01-01
 ==================
 
-  * Test againt `node`@5
+  * Test against `node`@5
   * Update `cli`@0.11.1
   * Use `mongodb-backup`@1.4.x
 
 v0.2.2 / 2015-10-23
 ==================
 
-  * Test againt `node`@4
+  * Test against `node`@4
   * Update `cli`@0.11.0
 
 v0.2.1 / 2015-08-26
