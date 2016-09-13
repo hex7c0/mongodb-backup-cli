@@ -1,3 +1,10 @@
+v0.4.0 / 2016-09-13
+==================
+
+  * Change LICENSE to Apache2 from GPL3
+  * Add `cursors` (options)
+  * Update `cli`@1.0.0
+
 v0.3.1 / 2016-04-30
 ==================
 

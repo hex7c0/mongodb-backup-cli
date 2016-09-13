@@ -8,14 +8,13 @@ var backup = require('mongodb-backup');
 
 cli
     .parse({
-      verbose: [ false, ' Save internal reporting into a logfile', 'file' ],
-      host: [ false, ' Specifies a resolvable hostname for the mongod',
-        'string' ],
-      cursors: [ 'c', ' Num of cursors', 'int', 0 ],
-      parser: [ 'p', ' Data parser (bson, json)', 'string', 'bson' ],
+      verbose: [ false, 'Save internal reporting into a logfile', 'file' ],
+      host: [ false, 'Specifies a resolvable hostname for the mongod', 'string' ],
+      cursors: [ 'c', 'Num of cursors', 'int', 0 ],
+      parser: [ 'p', 'Data parser (bson, json)', 'string', 'bson' ],
       out: [ 'o', ' Specifies the directory where saves the output', 'string',
         'dump/' ],
-      tar: [ 't', ' Pack files into a .tar file', 'string' ],
+      tar: [ 't', 'Pack files into a .tar file', 'string' ],
       collections: [ 'c', 'Specifies a collection to backup', 'string' ],
       query: [ 'q', 'Query that optionally limits the documents included',
         'string' ],
