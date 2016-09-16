@@ -6,6 +6,7 @@ var VERSION = require('../package.json').version;
 var cli = require('cli');
 var backup = require('mongodb-backup');
 
+cli.enable('timeout').enable('version');
 cli
     .parse({
       verbose: [ false, 'Save internal reporting into a logfile', 'file' ],
@@ -14,12 +15,11 @@ cli
       parser: [ 'p', 'Data parser (bson, json)', 'string', 'bson' ],
       out: [ 'o', ' Specifies the directory where saves the output', 'string',
         'dump/' ],
-      tar: [ 't', 'Pack files into a .tar file', 'string' ],
+      tar: [ 'r', 'Pack files into a .tar file', 'string' ],
       collections: [ 'c', 'Specifies a collection to backup', 'string' ],
       query: [ 'q', 'Query that optionally limits the documents included',
         'string' ],
-      metadata: [ 'm', 'Save metadata of collections as Index, ecc' ],
-      version: [ 'v', 'Display the current version' ]
+      metadata: [ 'm', 'Save metadata of collections as Index, ecc' ]
     });
 
 cli.setApp(process.title, VERSION).main(
@@ -50,7 +50,7 @@ cli.setApp(process.title, VERSION).main(
 
           if (err) {
             self.spinner('Working.. error\n', true);
-            self.error(err.message);
+            self.fatal(err.message);
           } else {
             self.spinner('Working.. done\n', true);
           }
@@ -58,6 +58,6 @@ cli.setApp(process.title, VERSION).main(
       });
     } catch (e) {
       self.spinner('Working.. error\n', true);
-      self.error(e.message);
+      self.fatal(e.message);
     }
   });
