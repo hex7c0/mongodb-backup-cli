@@ -31,16 +31,18 @@ Usage:
   mongodb-backup [OPTIONS] [ARGS]
 
 Options: 
-      --verbose FILE       Save internal reporting into a logfile
-      --host STRING        Specifies a resolvable hostname for the mongod
-  -p, --parser [STRING]    Data parser (bson, json) (Default is bson)
-  -o, --out [STRING]       Specifies the directory where saves the output  (Default is dump/)
-  -t, --tar STRING         Pack files into a .tar file
-  -c, --collections STRING Specifies a collection to backup
-  -q, --query STRING       Query that optionally limits the documents included
-  -m, --metadata           Save metadata of collections as Index, ecc
-  -v, --version            Display the current version
-  -h, --help               Display help and usage details
+      --verbose FILE     Save internal reporting into a logfile
+      --host STRING      Specifies a resolvable hostname for the mongod 
+  -c, --cursors NUMBER   Num of cursors
+  -p, --parser [STRING]  Data parser (bson, json) (Default is bson)
+  -o, --out [STRING]     Specifies the directory where saves the output  (Default is dump/)
+  -r, --tar STRING       Pack files into a .tar file
+  -c, --collections STRINGSpecifies a collection to backup
+  -q, --query STRING     Query that optionally limits the documents included 
+  -m, --metadata         Save metadata of collections as Index, ecc
+  -t, --timeout N        Exit if the process takes longer than N seconds
+  -v, --version          Display the current version
+  -h, --help             Display help and usage details
 ```
 
 ## Examples

@@ -1,3 +1,9 @@
+v0.4.1 / 2016-09-16
+==================
+
+  * add `timeout` (options)
+  * Rename `tar` options with `r` flag
+
 v0.4.0 / 2016-09-13
 ==================
 
