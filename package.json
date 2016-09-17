@@ -43,5 +43,5 @@
     "prepublish": "npm prune",
     "test": "node ./bin/cli.js -h"
   },
-  "license": "GPL-3.0"
+  "license": "Apache-2.0"
 }
