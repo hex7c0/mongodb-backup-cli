@@ -34,7 +34,7 @@
     "mongodb-backup": "1.6.x"
   },
   "devDependencies": {
-    "mongodb-restore": "~1.5"
+    "mongodb-restore": "~1.6"
   },
   "engines": {
     "node": ">=1"
